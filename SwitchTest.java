@@ -10,7 +10,10 @@ public class SwitchTest {
         System.out.println("3.Dell");
         System.out.println("4. None");
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Select your choice :");
         int choice = scanner.nextInt();
+
+
 
         switch (choice)
         {
